@@ -1,6 +1,18 @@
 This is MIDI Fingers, a python-based program that uses the
 Leap Motion device to generate MIDI.  It has been developed
-and only tested on Windows.
+and only tested on Windows.  This version is a two-channel version,
+which means that the left side of the space (in which you wave
+your fingers) can control a different MIDI channel than the 
+right side of the space.  Since there's no option in this version
+to go back to the single-channel version, I'm uploading this to
+githup as a seprate repository (midifingers2), so the original
+version is still available.  At some point, multiple Leap Motion
+devices will be supported simultaneously, which will probably
+be a much better way of controlling multiple MIDI channels.
+
+Ideally a single program would be able to support a variety
+of configurations.  It would be nice for someone to start with
+this version and make it more configurable.
 
 RUNNING IT
 ----------
